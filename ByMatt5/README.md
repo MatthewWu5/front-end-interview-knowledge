@@ -7,12 +7,18 @@ https://www.zhihu.com/question/19568008
 
 # Fragment Knowledge
 
-## If you don't know the things, Do not have an interview!!!
-- Http statecode
+## If you don't know these things, Do not have an interview!!!
+- Http statecode  
+100  
+200, 201, 202, 203, 204, 206  
+300, 301, 302, 304  
+400, 401, 403, 404, 405  
+500, 501, 503  
 
-
-
-
+- Answer  
+1xx - 表示临时响应并需要请求者继续执行操作的状态代码  
+100 - continue  
+3xx - 表示要完成请求，需要进一步操作。 通常，这些状态代码用来重定向  
 
 
 ## CSS 优先级
@@ -56,15 +62,16 @@ console.log(array) //['d','b']
 
 ## js事件委托
 > stopPropagation
-## 阻止事件冒泡
 
+## 阻止事件冒泡
 ```js
 if (event && event.stopPropagation)
     event.stopPropagation()
 else
     window.event.cancelBubble = true
 ```
-## 简要介绍你理解的闭包 and write a example
+
+## 简要介绍你理解的闭包
 ```js
 for(var i=0;i<2;i++){
       (function(i){
@@ -83,7 +90,7 @@ for(var i=0;i<2;i++){
     不适合场景：返回闭包的函数是个非常大的函数  
     闭包的缺点就是常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。
 
-## js添加 删除 替换 插入到某个接点的方法???????????????????????????
+## js添加 删除 替换 插入到某个接点的方法???
 insertBefore
 
 ## 实现js继承
@@ -520,7 +527,7 @@ div.right>div.little为什么会换行，既然float已经按照bfc来定位，�
 https://www.zhihu.com/question/41466747?sort=created
 ## css盒模型 写一个layout
 
-## 多个页面之间如何进行通信???
+## 多个页面之间如何进行通信????????????????????????????
 使用cookie，使用web worker，使用localeStorage和sessionStorage
 
 ## webSocket如何兼容低浏览器
@@ -639,7 +646,7 @@ http://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html
 
 
 
-# Others
+## Others======================================>
 ## 二叉树面试题
 ## 排序问题
 - 快速排序
@@ -739,9 +746,9 @@ html顺序加载，其中js会阻塞后续dom和资源的加载，css不会阻�
 
 
 
-# ES6 Knowledge
+## ES6 Knowledge====================>
 
-# Vuejs Angular Reactjs Knowledge
+## Vuejs Angular Reactjs Knowledge
 ## vuejs生命周期 事件
 beforecreated：el 和 data 并未初始化  
 created:完成了 data 数据的初始化，el没有  
@@ -752,12 +759,12 @@ mounted ：完成挂载　　updated；destroyed
 
 
 
-# Review Knowledge
+## Review Knowledge====================>
 ## `parseInt('c2')`
 
 
 
 
-# youdao OpenAPI
+## youdao OpenAPI====================>
 http://note.youdao.com/open/download/apidoc_1.1.0.pdf  
 http://note.youdao.com/open/apidoc.html
